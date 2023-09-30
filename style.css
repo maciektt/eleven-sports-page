@@ -1,61 +1,72 @@
+/* -----------------------------------------------HEADER--------------------------------------------- */
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
 .loga{
     display: flex;
     align-items: center;
 }
-
-
-
 .eleven-logo{
-    width:56%;
-    height: 37%;
+    width: 120px;
+    height: auto;
+    padding: 8px;
 }
 .eleven{
-    padding: 7px;
-    width: 12%;
+    margin-left: 170px;
+    width:100%;
     display: flex;
-    align-items: center;
     justify-content: end;
-}
-
-.interia-logo{
-    width: 37%;
-    height: auto;
 
 }
+
+
 .kreska{
-    background-color: black;
-    height: 28px;
-    font-size: 6px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-left: 5px;
+    justify-content: center;
+    font-size: 11px;
+    background-color: black;
+    height: 31px;
+    margin: 7px;
 }
-
+.interia-logo{
+    width: 150px;
+    height: auto;
+}
 .interia{
     display: flex;
-    justify-content: start;
     align-items: center;
-    
+    position: relative;
+    top: 3px;
 }
-.navbar{
- 
-    
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-
-}
+/* -------------------------------------NAVBAR------------------------------------------------- */
 .napisy{
     display: flex;
-    align-items: center;
-    gap: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 800;
-    margin-left: 300px;
-    font-size: 14px;
+    gap: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.menu:hover{
+    color: red;
+    cursor: pointer;
+}
+.menu1{
+    color: red;
+}
+.dimaria{
+    width: 100%;
+}
+
+
+.navbar{
     color: black;
+    margin-right:120px ;
+    display: flex;
 }
 
 
@@ -68,28 +79,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 900px) {
+    .eleven-logo{
+        width: 80px;
+        
+    }
+    .interia-logo{
+        width: 100px;
+        
+    }
+  }
 
 
 
