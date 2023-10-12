@@ -28,7 +28,7 @@
 
 
 
-.juve{
+.juve-img{
     width: 100%;
     
 }
@@ -121,33 +121,39 @@
 
     padding: 2rem;
 
-    margin-left: 4rem;
+    margin-left: 6rem;
+    margin-bottom: 30px;
 }
 .czerwona-kreska{
     background-color: rgb(253, 50, 50);
     width: 80px;
-    height: 7px;
+    height: 5px;
     
+    margin-bottom: 2px;
 }
 .text-red-small{
     color: red;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     font-size: 1.15rem;
+    
 }
 .text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2.3rem;
+    font-size: 3rem;
     font-weight: 600;
+    
 }
 
-
-
-
-
-
-
-
+.section-mid{
+    font-weight: 400;
+    font-size:1.5rem ;
+    padding: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -246,7 +252,28 @@
 
 
 
+@media (max-width: 1300px) {
+    .inside-content{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
 
+}
+@media (max-width: 1000px) {
+    .inside-content{
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+}
+@media (max-width: 850px) {
+    .text-red-small{
+        font-size: .95rem;
+    }
+    .text{
+        font-size: 1.8rem;
+    }
+}
 
 
 
